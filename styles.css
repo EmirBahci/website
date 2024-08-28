@@ -23,6 +23,11 @@ header p {
     margin: 5px 0;
 }
 
+header a {
+    color: #fff;  /* Make the email address visible */
+    text-decoration: none;
+}
+
 section {
     padding: 20px;
     margin: 20px;
@@ -69,4 +74,24 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.language-skill {
+    margin-bottom: 15px;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #333;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.9em;
 }
